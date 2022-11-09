@@ -15,6 +15,10 @@
 		F101B2AF291BDE48000E3721 /* MarvelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F101B2AE291BDE48000E3721 /* MarvelTests.swift */; };
 		F101B2B9291BDE48000E3721 /* MarvelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F101B2B8291BDE48000E3721 /* MarvelUITests.swift */; };
 		F101B2BB291BDE48000E3721 /* MarvelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F101B2BA291BDE48000E3721 /* MarvelUITestsLaunchTests.swift */; };
+		F101B2C9291BE844000E3721 /* ComponentLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F101B2C8291BE844000E3721 /* ComponentLabel.swift */; };
+		F101B2CB291BE913000E3721 /* ComponentTextfild.swift in Sources */ = {isa = PBXBuildFile; fileRef = F101B2CA291BE913000E3721 /* ComponentTextfild.swift */; };
+		F101B2CD291BE965000E3721 /* ComponentImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F101B2CC291BE965000E3721 /* ComponentImage.swift */; };
+		F101B2CF291BEA96000E3721 /* ComponentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F101B2CE291BEA96000E3721 /* ComponentButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		F101B2B4291BDE48000E3721 /* MarvelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F101B2B8291BDE48000E3721 /* MarvelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelUITests.swift; sourceTree = "<group>"; };
 		F101B2BA291BDE48000E3721 /* MarvelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F101B2C8291BE844000E3721 /* ComponentLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentLabel.swift; sourceTree = "<group>"; };
+		F101B2CA291BE913000E3721 /* ComponentTextfild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentTextfild.swift; sourceTree = "<group>"; };
+		F101B2CC291BE965000E3721 /* ComponentImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentImage.swift; sourceTree = "<group>"; };
+		F101B2CE291BEA96000E3721 /* ComponentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		F101B296291BDE47000E3721 /* Marvel */ = {
 			isa = PBXGroup;
 			children = (
+				F101B2C7291BE304000E3721 /* Components */,
 				F101B297291BDE47000E3721 /* AppDelegate.swift */,
 				F101B299291BDE47000E3721 /* SceneDelegate.swift */,
 				F101B29B291BDE47000E3721 /* ViewController.swift */,
@@ -122,6 +131,17 @@
 				F101B2BA291BDE48000E3721 /* MarvelUITestsLaunchTests.swift */,
 			);
 			path = MarvelUITests;
+			sourceTree = "<group>";
+		};
+		F101B2C7291BE304000E3721 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F101B2C8291BE844000E3721 /* ComponentLabel.swift */,
+				F101B2CA291BE913000E3721 /* ComponentTextfild.swift */,
+				F101B2CC291BE965000E3721 /* ComponentImage.swift */,
+				F101B2CE291BEA96000E3721 /* ComponentButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,8 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F101B2CB291BE913000E3721 /* ComponentTextfild.swift in Sources */,
 				F101B29C291BDE47000E3721 /* ViewController.swift in Sources */,
+				F101B2CD291BE965000E3721 /* ComponentImage.swift in Sources */,
 				F101B298291BDE47000E3721 /* AppDelegate.swift in Sources */,
+				F101B2CF291BEA96000E3721 /* ComponentButton.swift in Sources */,
+				F101B2C9291BE844000E3721 /* ComponentLabel.swift in Sources */,
 				F101B29A291BDE47000E3721 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
