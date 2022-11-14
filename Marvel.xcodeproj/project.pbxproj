@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45C5D98C291D496A0041E1F1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 45C5D98B291D496A0041E1F1 /* Alamofire */; };
+		45C5D98E291D49810041E1F1 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5D98D291D49810041E1F1 /* Request.swift */; };
+		45C5D991291D51810041E1F1 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 45C5D990291D51810041E1F1 /* SDWebImage */; };
+		45C5D9DB291DC8C60041E1F1 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5D9DA291DC8C60041E1F1 /* Character.swift */; };
+		45C5D9DD291DC9030041E1F1 /* Dataclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5D9DC291DC9030041E1F1 /* Dataclass.swift */; };
+		45C5D9DF291DC9490041E1F1 /* URLElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5D9DE291DC9490041E1F1 /* URLElement.swift */; };
+		45C5D9E1291DC9730041E1F1 /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5D9E0291DC9730041E1F1 /* Thumbnail.swift */; };
+		45C5D9E3291DCA010041E1F1 /* StoriesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5D9E2291DCA010041E1F1 /* StoriesItem.swift */; };
+		45C5D9E5291DCA3F0041E1F1 /* Stories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5D9E4291DCA3F0041E1F1 /* Stories.swift */; };
+		45C5D9E7291DCBE80041E1F1 /* ComicsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5D9E6291DCBE80041E1F1 /* ComicsItem.swift */; };
+		45C5D9E9291DCC1D0041E1F1 /* Comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5D9E8291DCC1D0041E1F1 /* Comics.swift */; };
+		45C5D9EB291DCC3B0041E1F1 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5D9EA291DCC3B0041E1F1 /* Result.swift */; };
 		F101B298291BDE47000E3721 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F101B297291BDE47000E3721 /* AppDelegate.swift */; };
 		F101B29A291BDE47000E3721 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F101B299291BDE47000E3721 /* SceneDelegate.swift */; };
 		F101B29C291BDE47000E3721 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F101B29B291BDE47000E3721 /* ViewController.swift */; };
@@ -39,6 +51,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45C5D98D291D49810041E1F1 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		45C5D9DA291DC8C60041E1F1 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		45C5D9DC291DC9030041E1F1 /* Dataclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dataclass.swift; sourceTree = "<group>"; };
+		45C5D9DE291DC9490041E1F1 /* URLElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLElement.swift; sourceTree = "<group>"; };
+		45C5D9E0291DC9730041E1F1 /* Thumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
+		45C5D9E2291DCA010041E1F1 /* StoriesItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesItem.swift; sourceTree = "<group>"; };
+		45C5D9E4291DCA3F0041E1F1 /* Stories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stories.swift; sourceTree = "<group>"; };
+		45C5D9E6291DCBE80041E1F1 /* ComicsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsItem.swift; sourceTree = "<group>"; };
+		45C5D9E8291DCC1D0041E1F1 /* Comics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comics.swift; sourceTree = "<group>"; };
+		45C5D9EA291DCC3B0041E1F1 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		F101B294291BDE47000E3721 /* Marvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F101B297291BDE47000E3721 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F101B299291BDE47000E3721 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C5D991291D51810041E1F1 /* SDWebImage in Frameworks */,
+				45C5D98C291D496A0041E1F1 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +106,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45C5D985291D47FF0041E1F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45C5D9DA291DC8C60041E1F1 /* Character.swift */,
+				45C5D9DC291DC9030041E1F1 /* Dataclass.swift */,
+				45C5D9DE291DC9490041E1F1 /* URLElement.swift */,
+				45C5D9E0291DC9730041E1F1 /* Thumbnail.swift */,
+				45C5D9E2291DCA010041E1F1 /* StoriesItem.swift */,
+				45C5D9E4291DCA3F0041E1F1 /* Stories.swift */,
+				45C5D9E6291DCBE80041E1F1 /* ComicsItem.swift */,
+				45C5D9E8291DCC1D0041E1F1 /* Comics.swift */,
+				45C5D9EA291DCC3B0041E1F1 /* Result.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45C5D986291D48070041E1F1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		45C5D987291D48110041E1F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45C5D988291D48220041E1F1 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				45C5D98D291D49810041E1F1 /* Request.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		45C5D989291D48540041E1F1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F101B297291BDE47000E3721 /* AppDelegate.swift */,
+				F101B299291BDE47000E3721 /* SceneDelegate.swift */,
+				F101B2A0291BDE48000E3721 /* Assets.xcassets */,
+				F101B2A2291BDE48000E3721 /* LaunchScreen.storyboard */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		F101B28B291BDE47000E3721 = {
 			isa = PBXGroup;
 			children = (
@@ -105,12 +178,13 @@
 		F101B296291BDE47000E3721 /* Marvel */ = {
 			isa = PBXGroup;
 			children = (
+				45C5D989291D48540041E1F1 /* Sources */,
 				F101B2C7291BE304000E3721 /* Components */,
-				F101B297291BDE47000E3721 /* AppDelegate.swift */,
-				F101B299291BDE47000E3721 /* SceneDelegate.swift */,
+				45C5D988291D48220041E1F1 /* Request */,
+				45C5D985291D47FF0041E1F1 /* Model */,
+				45C5D987291D48110041E1F1 /* View */,
+				45C5D986291D48070041E1F1 /* ViewModel */,
 				F101B29B291BDE47000E3721 /* ViewController.swift */,
-				F101B2A0291BDE48000E3721 /* Assets.xcassets */,
-				F101B2A2291BDE48000E3721 /* LaunchScreen.storyboard */,
 				F101B2A5291BDE48000E3721 /* Info.plist */,
 			);
 			path = Marvel;
@@ -160,6 +234,10 @@
 			dependencies = (
 			);
 			name = Marvel;
+			packageProductDependencies = (
+				45C5D98B291D496A0041E1F1 /* Alamofire */,
+				45C5D990291D51810041E1F1 /* SDWebImage */,
+			);
 			productName = Marvel;
 			productReference = F101B294291BDE47000E3721 /* Marvel.app */;
 			productType = "com.apple.product-type.application";
@@ -232,6 +310,10 @@
 				Base,
 			);
 			mainGroup = F101B28B291BDE47000E3721;
+			packageReferences = (
+				45C5D98A291D496A0041E1F1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				45C5D98F291D51810041E1F1 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = F101B295291BDE47000E3721 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -275,12 +357,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				F101B2CB291BE913000E3721 /* ComponentTextfild.swift in Sources */,
+				45C5D98E291D49810041E1F1 /* Request.swift in Sources */,
+				45C5D9E1291DC9730041E1F1 /* Thumbnail.swift in Sources */,
+				45C5D9DD291DC9030041E1F1 /* Dataclass.swift in Sources */,
 				F101B29C291BDE47000E3721 /* ViewController.swift in Sources */,
+				45C5D9E9291DCC1D0041E1F1 /* Comics.swift in Sources */,
+				45C5D9E7291DCBE80041E1F1 /* ComicsItem.swift in Sources */,
+				45C5D9DF291DC9490041E1F1 /* URLElement.swift in Sources */,
 				F101B2CD291BE965000E3721 /* ComponentImage.swift in Sources */,
 				F101B298291BDE47000E3721 /* AppDelegate.swift in Sources */,
 				F101B2CF291BEA96000E3721 /* ComponentButton.swift in Sources */,
 				F101B2C9291BE844000E3721 /* ComponentLabel.swift in Sources */,
+				45C5D9E3291DCA010041E1F1 /* StoriesItem.swift in Sources */,
+				45C5D9DB291DC8C60041E1F1 /* Character.swift in Sources */,
+				45C5D9EB291DCC3B0041E1F1 /* Result.swift in Sources */,
 				F101B29A291BDE47000E3721 /* SceneDelegate.swift in Sources */,
+				45C5D9E5291DCA3F0041E1F1 /* Stories.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +698,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		45C5D98A291D496A0041E1F1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		45C5D98F291D51810041E1F1 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		45C5D98B291D496A0041E1F1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45C5D98A291D496A0041E1F1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		45C5D990291D51810041E1F1 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45C5D98F291D51810041E1F1 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F101B28C291BDE47000E3721 /* Project object */;
 }
